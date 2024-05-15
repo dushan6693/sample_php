@@ -17,6 +17,7 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
 
     ?>
+    
 <table border=1>
     <tr>
         <th>
@@ -58,7 +59,7 @@ if ($result->num_rows > 0) {
         <a href='delete.php?id=".$row["id"]."'><button>Delete</button></a>
         </td>
         <td>
-        <a href='edit.php?id=".$row["id"]."'><button>Delete</button></a>
+        <a href='edit.php?id=".$row["id"]."'><button>Edit</button></a>
         </td>
     </tr>
 

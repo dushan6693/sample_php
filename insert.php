@@ -19,9 +19,6 @@ if($conn->connect_error){
     
     if($conn->query($write_q)==TRUE){
 
-      if (session_status() == PHP_SESSION_NONE) {
-        session_start();
-      }
 
       //echo "New record created successfully";
       //window.open("bag/add.php?id="+$id,"_self");
