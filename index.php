@@ -1,4 +1,7 @@
+
 <?php
+//this is sample comment for tests. write by maheshika01
+
 include_once "dbconnection.php";
 
 if(isset($_GET["msg"])){
